@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>template</title>
+</head>
+<body>
+    <p>11/2{{fri}}</p>
+    <p>11/3{{sat}}</p>
+    <p>11/2{{sun}}</p>
+    <p>11/2{{mon}}</p>
+    <p>11/2{{thue}}</p>
+    <div>
+    <ul style="float:left;">
+        {{ each files}}
+            <li style="list-style:none;"><a href="#">{{ $value }}</a></li><span>2018-7-7</span>
+        {{ /each}}
+    </ul>
+    </div>
+</body>
+</html>
